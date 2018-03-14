@@ -12,6 +12,9 @@ import {
   Quote,
   Slide,
   Text,
+  Layout,
+  Fit,
+  Fill
 } from 'spectacle';
 
 // Import theme
@@ -26,9 +29,10 @@ const theme = createTheme(
     secondary: '#1F2022',
     tertiary: '#03A9FC',
     quartenary: '#CECECE',
+    orange: 'orange'
   },
   {
-    primary: 'Montserrat',
+    primary: 'Open Sans Condensed',
     secondary: 'Helvetica',
   }
 );
@@ -41,8 +45,8 @@ export default class Presentation extends React.Component {
         transitionDuration={500}
         theme={theme}
       >
-        <Slide transition={['zoom']} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+        <Slide transition={['zoom']} bgColor="secondary">
+          <Heading size={1} fit caps lineHeight={1} textColor="primary">
             PWA
           </Heading>
           <Text margin="20px 0 0" textColor="tertiary" size={1} fit bold>
@@ -50,28 +54,36 @@ export default class Presentation extends React.Component {
           </Text>
         </Slide>
 
-        <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>
-            Typography
-          </Heading>
-          <Heading size={1} textColor="secondary">
-            Heading 1
-          </Heading>
-          <Heading size={2} textColor="secondary">
-            Heading 2
-          </Heading>
-          <Heading size={3} textColor="secondary">
-            Heading 3
-          </Heading>
-          <Heading size={4} textColor="secondary">
-            Heading 4
-          </Heading>
-          <Heading size={5} textColor="secondary">
-            Heading 5
-          </Heading>
-          <Text size={6} textColor="secondary">
-            Standard text
+        <Slide transition={['fade']} bgColor="orange">
+          <Text margin="20px 0 0" textColor="primary" size={1} fit bold>
+            Tunggu dulu! Apa itu Progressive Web App?
           </Text>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Text margin="0" textColor="primary" size={3} fit bold>
+            Progressive Web App atau PWA
+          </Text>
+          <Text margin="20px 0 50px 0" textColor="primary" size={6} fit bold>
+            adalah teknologi web terbaru dari Google yang terdiri dari 3 komponen yaitu:
+          </Text>
+          <Layout>
+            <Fill>
+              <Text margin="0" textSize="3rem" textColor="primary" bold>
+                Handal                
+              </Text>
+            </Fill>
+            <Fill>
+              <Text margin="0" textSize="3rem" textColor="primary" bold>
+                Cepat                
+              </Text>
+            </Fill>
+            <Fill>
+              <Text margin="0" textSize="3rem" textColor="primary" bold>
+                Menawan                
+              </Text>
+            </Fill>
+          </Layout>
         </Slide>
         
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
