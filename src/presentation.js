@@ -21,7 +21,8 @@ const theme = createTheme(
     secondary: '#1F2022',
     tertiary: '#03A9FC',
     quartenary: '#CECECE',
-    orange: 'orange'
+    orange: 'orange',
+    cyan: 'cyan'
   },
   {
     primary: 'Open Sans Condensed',
@@ -33,7 +34,10 @@ const slidesImports = [
   import('./slides/1section-greeting/greeting1'),
 
   import('./slides/2section-introduction/introduction1'),
-  import('./slides/2section-introduction/introduction2')
+  import('./slides/2section-introduction/introduction2'),
+  import('./slides/2section-introduction/introduction3'),
+  import('./slides/2section-introduction/introduction4'),
+  import('./slides/2section-introduction/introduction5')
 ]
 
 export default class Presentation extends React.Component {
