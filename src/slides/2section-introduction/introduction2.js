@@ -17,17 +17,17 @@ export default (
     </Text>
     <Layout>
       <Fill>
-        <Text margin="0" textSize="4rem" textColor="primary" bold>
+        <Text margin="0" textSize="5rem" textColor="primary" bold>
           Handal                
         </Text>
       </Fill>
       <Fill>
-        <Text margin="0" textSize="4rem" textColor="primary" bold>
+        <Text margin="0" textSize="5rem" textColor="primary" bold>
           Cepat                
         </Text>
       </Fill>
       <Fill>
-        <Text margin="0" textSize="4rem" textColor="primary" bold>
+        <Text margin="0" textSize="5rem" textColor="primary" bold>
           Menawan                
         </Text>
       </Fill>

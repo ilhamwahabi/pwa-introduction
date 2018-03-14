@@ -22,6 +22,7 @@ const theme = createTheme(
     tertiary: '#03A9FC',
     quartenary: '#CECECE',
     orange: 'orange',
+    orangered: 'orangered',
     cyan: 'cyan'
   },
   {
