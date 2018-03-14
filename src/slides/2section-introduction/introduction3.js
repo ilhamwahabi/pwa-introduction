@@ -8,7 +8,7 @@ import {
 
 export default (
   <Slide bgColor="secondary">
-    <Heading size={1} fit caps lineHeight={1} textColor="primary" textColor="primary">
+    <Heading size={1} fit caps lineHeight={1} textColor="primary">
       Handal
     </Heading>
     <Text margin="0" textColor="primary" size={3} fit bold>

@@ -41,7 +41,10 @@ const slidesImports = [
   import('./slides/2section-introduction/introduction5'),
 
   import('./slides/3section-attention/attention1'),
-  import('./slides/3section-attention/attention2')
+  import('./slides/3section-attention/attention2'),
+  import('./slides/3section-attention/attention3'),
+  import('./slides/3section-attention/attention4'),
+  import('./slides/3section-attention/attention5')
 ]
 
 export default class Presentation extends React.Component {
@@ -66,7 +69,7 @@ export default class Presentation extends React.Component {
   render() {
     const { slides } = this.state;
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+      <Deck transition={["zoom", "slide"]} progress="bar" transitionDuration={500} theme={theme}>
         {
           slides.map((slide, index) => {
             return React.cloneElement(slide, {key: index});
