@@ -3,7 +3,8 @@ import React from 'react'
 import {
   Slide,
   Text,
-  Heading
+  Heading,
+  Appear
 } from 'spectacle';
 
 export default (        
@@ -11,8 +12,10 @@ export default (
     <Heading size={1} fit caps lineHeight={1} textColor="primary">
       PWA
     </Heading>
-    <Text margin="20px 0 0" textColor="tertiary" size={1} fit bold>
-      Progressive Web App - The Introduction
-    </Text>
+    <Appear order="1">
+      <Text margin="20px 0 0" textColor="tertiary" size={1} fit bold>
+        Progressive Web App - The Introduction
+      </Text>
+    </Appear>
   </Slide>
 )

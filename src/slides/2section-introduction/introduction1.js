@@ -2,7 +2,8 @@ import React from 'react'
 
 import {
   Slide,
-  Text
+  Text,
+  Appear
 } from 'spectacle';
 
 export default (
@@ -10,8 +11,10 @@ export default (
     <Text margin="20px 0 0" textColor="primary" size={1} fit bold>
       Tunggu dulu!
     </Text>
-    <Text margin="30px 0 0" textColor="primary" size={1} fit bold>
-      Apa itu Progressive Web App?
-    </Text>
+    <Appear order="1">
+      <Text margin="30px 0 0" textColor="primary" size={1} fit bold>
+        Apa itu Progressive Web App?
+      </Text>
+    </Appear>
   </Slide>
 )

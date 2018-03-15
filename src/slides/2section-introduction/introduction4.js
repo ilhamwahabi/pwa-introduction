@@ -3,7 +3,8 @@ import React from 'react'
 import {
   Slide,
   Heading,
-  Text
+  Text,
+  Appear
 } from 'spectacle'
 
 export default (
@@ -11,8 +12,10 @@ export default (
     <Heading size={1} fit caps lineHeight={1} textColor="primary">
       Cepat
     </Heading>
-    <Text margin="0" textColor="primary" size={3} fit bold>
-      Cukup memuat halaman sekali, nikmati kecepatan akses setelahnya
-    </Text>
+    <Appear order="1">    
+      <Text margin="0" textColor="primary" size={3} fit bold>
+        Cukup memuat halaman sekali, nikmati kecepatan akses setelahnya
+      </Text>
+    </Appear>
   </Slide>
 )
