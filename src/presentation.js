@@ -47,6 +47,7 @@ const slidesImports = [
   import('./slides/3section-attention/attention5'),
   import('./slides/3section-attention/attention6'),
   import('./slides/3section-attention/attention7'),
+  import('./slides/3section-attention/attention8'),
 
   import('./slides/4section-finish/finish1'),  
   import('./slides/4section-finish/finish2')  
