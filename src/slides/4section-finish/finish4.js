@@ -11,14 +11,16 @@ import {
 
 export default (
   <Slide transition={['fade']} bgColor="teal">
-    <Appear order="1">    
       <Text margin="20px 0 50px 0" textColor="primary" size={2} bold>
         Lets discuss!
       </Text>
-    </Appear>
-    <Heading size={1} fit caps lineHeight={1} textColor="primary">
-      Ilham Wahabi
-    </Heading>
+
+      <Appear order="1">    
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Ilham Wahabi
+        </Heading>
+      </Appear>
+
     <Appear order="1">    
       <Text margin="20px 0 50px 0" textColor="primary" size={2} bold>
         Web Developer at ARC ITB

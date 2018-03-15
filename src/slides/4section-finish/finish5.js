@@ -31,45 +31,6 @@ export default (
         </Fill> 
       </Appear>
     </Layout>
-
-    <Layout>
-      <Appear order="2">              
-        <Fill>  
-          <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
-            Codepolitan
-          </Text>
-        </Fill> 
-      </Appear>
-
-      <Appear order="2">              
-        <Fill>  
-          <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
-            WWWID Medium
-          </Text>
-        </Fill> 
-      </Appear>
-
-    </Layout>
-
-    
-    <Layout>
-    <Appear order="5">      
-      <Fill>  
-        <Text margin="0" textColor="white" textSize="4rem" bold>
-          Udemy
-        </Text>
-      </Fill> 
-    </Appear>
-
-    <Appear order="6">      
-      <Fill>  
-        <Text margin="0" textColor="white" textSize="4rem" bold>
-          Udacity
-        </Text>
-      </Fill> 
-    </Appear>
-    </Layout>
-
   </Slide>
 )
 

@@ -14,8 +14,13 @@ export default (
       Progressive Web App atau PWA
     </Text>
     <Appear order="1">    
+      <Text margin="20px 0 0 0" textColor="primary" size={6} fit bold>
+        aplikasi web yang menggunakan teknologi modern
+      </Text>
+    </Appear>
+    <Appear order="1">    
       <Text margin="20px 0 50px 0" textColor="primary" size={6} fit bold>
-        adalah teknologi web terbaru dari Google yang terdiri dari 3 komponen yaitu:
+        membuat user experience layaknya Native App
       </Text>
     </Appear>
       <Layout>

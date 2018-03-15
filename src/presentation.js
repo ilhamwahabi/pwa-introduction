@@ -52,8 +52,9 @@ const slidesImports = [
   import('./slides/4section-finish/finish1'),  
   import('./slides/4section-finish/finish2'),  
   import('./slides/4section-finish/finish3'),  
-  import('./slides/4section-finish/finish4'),  
+  import('./slides/4section-finish/finish6'),    
   import('./slides/4section-finish/finish5'),  
+  import('./slides/4section-finish/finish4'),    
 ]
 
 export default class Presentation extends React.Component {
