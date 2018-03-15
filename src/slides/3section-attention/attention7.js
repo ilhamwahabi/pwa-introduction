@@ -24,62 +24,63 @@ export default (
       </Appear>
 
       <Appear order="2">              
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Flipkart
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+              Flipkart
+            </Text>
+        </Fill> 
       </Appear>
 
       <Appear order="3">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Forbes
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+              Forbes
+            </Text>
+        </Fill> 
       </Appear>
         
       <Appear order="4">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Alibaba
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+              Alibaba
+            </Text>
+        </Fill> 
       </Appear>
+
     </Layout>
 
     <Layout>
 
       <Appear order="5">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Trivago
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="4rem" bold>
+            Trivago
+          </Text>
+        </Fill> 
       </Appear>
 
       <Appear order="6">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Google
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="4rem" bold>
+              Google
+          </Text>
+        </Fill> 
       </Appear>
 
       <Appear order="7">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Babe
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="4rem" bold>
+            Babe
+          </Text>
+        </Fill> 
       </Appear>
 
       <Appear order="8">      
-      <Fill>  
-      <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
-          Jaka
-        </Text>
-       </Fill> 
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="4rem" bold>
+            Jaka
+          </Text>
+        </Fill> 
       </Appear>
 
     </Layout>
