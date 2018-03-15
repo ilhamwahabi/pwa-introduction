@@ -13,7 +13,7 @@ export default (
     </Text>
     <Appear order="1">
       <Text margin="30px 0 0" textColor="primary" size={1} fit bold>
-        Ada 1 syarat wajib jika menggunakan PWA
+        Ada syarat wajib jika menggunakan PWA
       </Text>
     </Appear>
   </Slide>

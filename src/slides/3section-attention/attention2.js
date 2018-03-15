@@ -17,5 +17,10 @@ export default (
         HTTPS
       </Heading>
     </Appear>
+    <Appear order="2">
+      <Heading size={1} fit caps lineHeight={1} textColor="primary">
+        Dan harus responsif!
+      </Heading>
+    </Appear>
   </Slide>
 )
