@@ -23,7 +23,8 @@ const theme = createTheme(
     quartenary: '#CECECE',
     orange: 'orange',
     orangered: 'orangered',
-    cyan: 'cyan'
+    cyan: 'cyan',
+    red: '#E23636'
   },
   {
     primary: 'Open Sans Condensed',
@@ -56,6 +57,7 @@ const slidesImports = [
 
   import('./slides/4section-finish/finish1'),  
   import('./slides/4section-finish/finish2'),  
+  import('./slides/4section-finish/finish7'),      
   import('./slides/4section-finish/finish3'),  
   import('./slides/4section-finish/finish6'),    
   import('./slides/4section-finish/finish5'),  

@@ -8,18 +8,18 @@ import {
 } from 'spectacle';
 
 export default (
-  <Slide transition={['fade']} bgColor="orangered">
+  <Slide transition={['fade']} bgColor="red">
     <Heading size={1} fit caps lineHeight={1} textColor="primary">
-      Presentasi ini
+      Dan apa kalian tahu?
     </Heading>
     <Appear order="1">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        akan terus diperbarui
+        Presentasi Ini
       </Heading>
     </Appear>
     <Appear order="2">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Saya ketinggalan sesuatu? Silakan kontak
+        Juga Memakai PWA :)
       </Heading>
     </Appear>
   </Slide>
