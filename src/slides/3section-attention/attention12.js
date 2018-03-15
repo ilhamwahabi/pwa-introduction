@@ -10,18 +10,16 @@ import {
 
 export default (
   <Slide transition={['fade']} bgColor="teal">
+    <Heading size={1} fit caps lineHeight={1} textColor="primary">
+      Contoh Teknologi yang Dipakai:
+    </Heading>
     <Appear order="1">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Tools khusus dalam pengembangan PWA
+        Web App Manifest
       </Heading>
     </Appear>
-    <Appear order="2">    
-      <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Lighthouse
-      </Heading>
-    </Appear>
-    <Appear order="3">
-      <Image src="https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png" />
+    <Appear order="1">
+      <Image src="https://puu.sh/zIif3/31c0d34907.png" />
     </Appear>
   </Slide>
 )

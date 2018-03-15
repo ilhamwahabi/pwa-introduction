@@ -2,26 +2,24 @@ import React from 'react'
 
 import {
   Slide,
-  Text,
   Heading,
-  Appear,
-  Image
+  Appear
 } from 'spectacle';
 
 export default (
-  <Slide transition={['fade']} bgColor="teal">
+  <Slide transition={['fade']} bgColor="purple">
+    <Heading size={1} fit caps lineHeight={1} textColor="primary">
+      Tunggu sebentar!
+    </Heading>
     <Appear order="1">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Tools khusus dalam pengembangan PWA
+        Pertanyaan Anda
       </Heading>
     </Appear>
-    <Appear order="2">    
+    <Appear order="1">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Lighthouse
+        Kurang tepat
       </Heading>
-    </Appear>
-    <Appear order="3">
-      <Image src="https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png" />
     </Appear>
   </Slide>
 )
