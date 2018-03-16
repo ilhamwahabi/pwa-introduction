@@ -1,0 +1,2 @@
+webpackJsonp([0],{1002:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),o=a(428);a.n(o);t.default=r.a.createElement(o.Slide,{transition:["fade"],bgColor:"secondary",textColor:"primary"},r.a.createElement(o.BlockQuote,null,r.a.createElement(o.Quote,{textSize:"4rem"},"Microsoft is planning to crawl and index Progressive Web Apps, convert them to APPX and make them searchable and browsable in the Store"),r.a.createElement(o.Cite,null,"Mary Jo Foley")))}});
+//# sourceMappingURL=0.1425962d.chunk.js.map
