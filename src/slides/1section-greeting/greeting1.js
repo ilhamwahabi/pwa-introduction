@@ -12,10 +12,8 @@ export default (
     <Heading size={1} fit caps lineHeight={1} textColor="primary">
       PWA
     </Heading>
-    <Appear order="1">
-      <Text margin="20px 0 0" textColor="tertiary" size={1} fit bold>
-        Progressive Web App - The Introduction
-      </Text>
-    </Appear>
+    <Text margin="20px 0 0" textColor="tertiary" size={1} fit bold>
+      Progressive Web App - The Introduction
+    </Text>
   </Slide>
 )

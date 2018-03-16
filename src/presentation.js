@@ -40,6 +40,7 @@ const slidesImports = [
   import('./slides/2section-introduction/introduction3'),
   import('./slides/2section-introduction/introduction4'),
   import('./slides/2section-introduction/introduction5'),
+  import('./slides/2section-introduction/introduction8'),
   // import('./slides/2section-introduction/introduction6'),
   // import('./slides/2section-introduction/introduction7'),
 
