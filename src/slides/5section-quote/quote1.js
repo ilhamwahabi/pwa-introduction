@@ -10,7 +10,7 @@ import {
 export default (
   <Slide transition={['fade']} bgColor="secondary" textColor="primary">
     <BlockQuote>
-      <Quote>These apps aren’t packaged and deployed through stores, they’re just websites that took all the right vitamins… They progressively become ‘apps’.</Quote>
+      <Quote textSize="4rem" >These apps aren’t packaged and deployed through stores, they’re just websites that took all the right vitamins… They progressively become ‘apps’.</Quote>
       <Cite>Alex Russell</Cite>
     </BlockQuote>
   </Slide>
