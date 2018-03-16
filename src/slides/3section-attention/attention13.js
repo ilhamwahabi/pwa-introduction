@@ -15,7 +15,7 @@ export default (
     </Heading>
     <Appear order="1">
       <Heading size={1} fit caps lineHeight={1} textColor="primary">
-        Service Worker
+        Service Workers
       </Heading>
     </Appear>
     <Appear order="2">

@@ -9,7 +9,7 @@ import {
 } from 'spectacle';
 
 export default (
-  <Slide transition={['fade']} bgColor="tertiary">
+  <Slide transition={['fade']} bgColor="purple">
     <Text margin="0" textColor="primary" size={3} fit bold>
       Progressive Web App atau PWA
     </Text>

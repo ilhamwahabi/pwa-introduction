@@ -40,6 +40,8 @@ const slidesImports = [
   import('./slides/2section-introduction/introduction3'),
   import('./slides/2section-introduction/introduction4'),
   import('./slides/2section-introduction/introduction5'),
+  import('./slides/2section-introduction/introduction6'),
+  import('./slides/2section-introduction/introduction7'),
 
   import('./slides/3section-attention/attention1'),
   import('./slides/3section-attention/attention2'),
@@ -58,6 +60,7 @@ const slidesImports = [
   import('./slides/4section-finish/finish1'),  
   import('./slides/4section-finish/finish2'),  
   import('./slides/4section-finish/finish7'),      
+  import('./slides/4section-finish/finish9'),      
   import('./slides/4section-finish/finish3'),  
   import('./slides/4section-finish/finish6'),    
   import('./slides/4section-finish/finish5'),  
@@ -97,22 +100,3 @@ export default class Presentation extends React.Component {
     );
   }
 }
-
-// <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
-// <Heading size={6} textColor="secondary" caps>
-//   Standard List
-// </Heading>
-// <List>
-//   <ListItem>Item 1</ListItem>
-//   <ListItem>Item 2</ListItem>
-//   <ListItem>Item 3</ListItem>
-//   <ListItem>Item 4</ListItem>
-// </List>
-// </Slide>
-
-// <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-// <BlockQuote>
-//   <Quote>Example Quote</Quote>
-//   <Cite>Author</Cite>
-// </BlockQuote>
-// </Slide>
