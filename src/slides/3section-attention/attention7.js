@@ -17,7 +17,7 @@ export default (
     <Layout>
       <Appear order="1">      
         <Fill>
-          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
             Twitter
           </Text>
         </Fill>
@@ -25,7 +25,7 @@ export default (
 
       <Appear order="2">              
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
               Flipkart
             </Text>
         </Fill> 
@@ -33,7 +33,7 @@ export default (
 
       <Appear order="3">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
               Forbes
             </Text>
         </Fill> 
@@ -41,7 +41,7 @@ export default (
         
       <Appear order="4">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
               Alibaba
             </Text>
         </Fill> 
@@ -53,7 +53,7 @@ export default (
 
       <Appear order="5">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
             Trivago
           </Text>
         </Fill> 
@@ -61,7 +61,7 @@ export default (
 
       <Appear order="6">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="4rem" bold>
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
               Google
           </Text>
         </Fill> 
@@ -69,16 +69,53 @@ export default (
 
       <Appear order="7">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="4rem" bold>
-            Babe
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
+            Telegram
           </Text>
         </Fill> 
       </Appear>
 
       <Appear order="8">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="4rem" bold>
-            Jaka
+          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
+            Babe
+          </Text>
+        </Fill> 
+      </Appear>
+
+    </Layout>
+
+    
+    <Layout>
+
+      <Appear order="9">      
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="3rem" bold>
+            Bukalapak
+          </Text>
+        </Fill> 
+      </Appear>
+
+      <Appear order="10">      
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="3rem" bold>
+            Tokopedia
+          </Text>
+        </Fill> 
+      </Appear>
+
+      <Appear order="11">      
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="3rem" bold>
+            Traveloka
+          </Text>
+        </Fill> 
+      </Appear>
+
+      <Appear order="12">      
+        <Fill>  
+          <Text margin="0" textColor="white" textSize="3rem" bold>
+            Jalan Tikus
           </Text>
         </Fill> 
       </Appear>
