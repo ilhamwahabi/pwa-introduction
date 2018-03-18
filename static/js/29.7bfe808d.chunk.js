@@ -1,2 +1,0 @@
-webpackJsonp([29],{981:function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var a=t(0),i=t.n(a),o=t(428);t.n(o);r.default=i.a.createElement(o.Slide,{transition:["fade"],bgColor:"orangered"},i.a.createElement(o.Text,{margin:"0",textColor:"primary",caps:!0,size:1,fit:!0,bold:!0},"Apa itu"),i.a.createElement(o.Appear,{order:"1"},i.a.createElement(o.Text,{margin:"0",textColor:"primary",size:1,fit:!0,bold:!0},"Progressive Web App?")))}});
-//# sourceMappingURL=29.7bfe808d.chunk.js.map
