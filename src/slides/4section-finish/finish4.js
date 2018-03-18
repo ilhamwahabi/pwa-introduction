@@ -6,7 +6,8 @@ import {
   Layout,
   Fill,
   Appear,
-  Heading
+  Heading,
+  Link
 } from 'spectacle';
 
 export default (
@@ -29,23 +30,29 @@ export default (
       <Layout>
         <Appear order="2">
           <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Facebook           
-            </Text>
+            <Link href="https://www.facebook.com/wahabi.putra">
+              <Text margin="0" textSize="5rem" textColor="primary" bold>
+                Facebook           
+              </Text>
+            </Link>
           </Fill>
         </Appear>
         <Appear order="3">        
           <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Github               
-            </Text>
+            <Link href="https://github.com/IlhamWahabiGX">
+              <Text margin="0" textSize="5rem" textColor="primary" bold>
+                Github               
+              </Text>
+            </Link>
           </Fill>
         </Appear>
         <Appear order="4">        
           <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Linkedin                
-            </Text>
+            <Link href="https://www.linkedin.com/in/ilham-wahabi-aa1479131/">
+              <Text margin="0" textSize="5rem" textColor="primary" bold>
+                Linkedin                
+              </Text>
+            </Link>
           </Fill>
         </Appear>
       </Layout>

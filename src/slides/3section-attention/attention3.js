@@ -10,7 +10,7 @@ import {
 } from 'spectacle';
 
 export default (
-  <Slide transition={['fade']} bgColor="white">
+  <Slide transition={['fade']} bgColor="#e0e0e0">
     <Text margin="0 0 50px 0" textColor="secondary" size={1} fit bold>
       Apakah harus menggunakan...
     </Text>
