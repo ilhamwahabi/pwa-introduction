@@ -1,0 +1,2 @@
+webpackJsonp([28],{980:function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=r(0),a=r.n(i),n=r(428);r.n(n);t.default=a.a.createElement(n.Slide,{transition:["zoom"],bgColor:"secondary"},a.a.createElement(n.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"PWA"),a.a.createElement(n.Heading,{margin:"20px 0 0",textColor:"tertiary",size:1,fit:!0,bold:!0},"Progressive Web App - The Introduction"))}});
+//# sourceMappingURL=28.0d1b7060.chunk.js.map

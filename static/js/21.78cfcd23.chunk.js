@@ -1,0 +1,2 @@
+webpackJsonp([21],{987:function(e,a,r){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t=r(0),n=r.n(t),i=r(428);r.n(i);a.default=n.a.createElement(i.Slide,{transition:["fade"],bgColor:"orangered"},n.a.createElement(i.Appear,{order:"1"},n.a.createElement(i.Text,{margin:"20px 0 0",textColor:"primary",size:1,fit:!0,bold:!0},"Tapi ingat!")),n.a.createElement(i.Appear,{order:"2"},n.a.createElement(i.Text,{margin:"30px 0 0",textColor:"primary",size:1,fit:!0,bold:!0},"Ada syarat wajib jika menggunakan PWA")))}});
+//# sourceMappingURL=21.78cfcd23.chunk.js.map

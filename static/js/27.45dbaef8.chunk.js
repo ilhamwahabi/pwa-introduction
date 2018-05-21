@@ -1,0 +1,2 @@
+webpackJsonp([27],{981:function(e,r,a){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var t=a(0),n=a.n(t),o=a(428);a.n(o);r.default=n.a.createElement(o.Slide,{transition:["fade"],bgColor:"orangered"},n.a.createElement(o.Appear,{order:"1"},n.a.createElement(o.Heading,{margin:"0",textColor:"primary",caps:!0,fit:!0,bold:!0},"Apa itu")),n.a.createElement(o.Appear,{order:"2"},n.a.createElement(o.Text,{margin:"0",textColor:"primary",fit:!0,bold:!0},"Progressive Web App?")))}});
+//# sourceMappingURL=27.45dbaef8.chunk.js.map

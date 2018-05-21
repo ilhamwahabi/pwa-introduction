@@ -1,0 +1,2 @@
+webpackJsonp([14],{990:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=a.n(r),i=a(428);a.n(i);t.default=n.a.createElement(i.Slide,{transition:["fade"],bgColor:"orangered"},n.a.createElement(i.Appear,{order:"1"},n.a.createElement(i.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"TIDAK PERLU!")))}});
+//# sourceMappingURL=14.a64df08f.chunk.js.map

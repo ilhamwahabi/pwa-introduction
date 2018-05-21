@@ -1,2 +1,0 @@
-webpackJsonp([7],{1005:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var i=t(0),r=t.n(i),n=t(428);t.n(n);a.default=r.a.createElement(n.Slide,{transition:["fade"],bgColor:"purple"},r.a.createElement(n.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"Sekian"),r.a.createElement(n.Appear,{order:"1"},r.a.createElement(n.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"Terima Kasih!")))}});
-//# sourceMappingURL=7.c16a1e27.chunk.js.map
