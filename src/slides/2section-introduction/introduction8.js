@@ -10,19 +10,21 @@ import {
 
 export default (
   <Slide transition={['fade']} bgColor="purple">
-    <Text margin="0 0 50px 0" textColor="primary" size={3} caps fit bold>
-      Beberapa fitur yang ada
-    </Text>
+    <Appear order="1">  
+      <Text margin="0 0 50px 0" textColor="primary" size={3} caps fit bold>
+        Beberapa fitur yang ada
+      </Text>
+    </Appear>
 
       <Layout>
-        <Appear order="1">
+        <Appear order="2">
           <Fill>
             <Text margin="0 0 30px 0" textSize="3rem" textColor="primary" bold>
-              Push Notification                
+              Camera Access                  
             </Text>
           </Fill>
         </Appear>
-        <Appear order="2">        
+        <Appear order="3">        
           <Fill>
             <Text margin="0 0 30px 0" textSize="3rem" textColor="primary" bold>
               Offline Access               
@@ -32,7 +34,7 @@ export default (
       </Layout>
 
       <Layout>      
-        <Appear order="3">        
+        <Appear order="4">        
           <Fill>
             <Text margin="0 0 30px 0" textSize="3rem" textColor="primary" bold>
               One-Click Install                
@@ -40,7 +42,7 @@ export default (
           </Fill>
         </Appear>
 
-        <Appear order="4">        
+        <Appear order="5">        
           <Fill>
             <Text margin="0 0 30px 0" textSize="3rem" textColor="primary" bold>
               Background Sync                
@@ -50,15 +52,15 @@ export default (
       </Layout>
 
       <Layout>      
-        <Appear order="5">        
+        <Appear order="6">        
           <Fill>
             <Text margin="0" textSize="3rem" textColor="primary" bold>
-              Camera Access              
+              Push Notification     
             </Text>
           </Fill>
         </Appear>
 
-        <Appear order="6">        
+        <Appear order="7">        
           <Fill>
             <Text margin="0" textSize="3rem" textColor="primary" bold>
               Geolocation Access              

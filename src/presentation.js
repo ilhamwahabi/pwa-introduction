@@ -52,12 +52,12 @@ const slidesImports = [
   import('./slides/3section-attention/attention6'),
   import('./slides/3section-attention/attention7'),
   import('./slides/5section-quote/quote2'),        
-  import('./slides/3section-attention/attention8'),
   import('./slides/3section-attention/attention9'),
   import('./slides/3section-attention/attention10'),
   import('./slides/3section-attention/attention11'),
   import('./slides/3section-attention/attention12'),
   import('./slides/3section-attention/attention13'),
+  import('./slides/3section-attention/attention8'),
 
   import('./slides/4section-finish/finish1'),  
   import('./slides/5section-quote/quote3'),        
