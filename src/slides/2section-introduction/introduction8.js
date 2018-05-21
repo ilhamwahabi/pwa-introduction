@@ -3,7 +3,6 @@ import React from 'react'
 import {
   Slide,
   Text,
-  Heading,
   Layout,
   Fill,
   Appear

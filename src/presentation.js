@@ -64,10 +64,10 @@ const slidesImports = [
   import('./slides/4section-finish/finish2'),  
   // import('./slides/4section-finish/finish7'),      
   import('./slides/5section-quote/quote1'),      
-  import('./slides/4section-finish/finish3'),  
-  import('./slides/4section-finish/finish6'),    
+  // import('./slides/4section-finish/finish6'),    
   import('./slides/4section-finish/finish5'),  
   import('./slides/4section-finish/finish8'),    
+  import('./slides/4section-finish/finish3'),  
   import('./slides/4section-finish/finish4'),    
 ]
 

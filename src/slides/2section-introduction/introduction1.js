@@ -2,17 +2,20 @@ import React from 'react'
 
 import {
   Slide,
-  Text,
-  Appear
+  Heading,
+  Appear,
+  Text
 } from 'spectacle';
 
 export default (
   <Slide transition={['fade']} bgColor="orangered">
-    <Text margin="0" textColor="primary" caps size={1} fit bold>
-      Apa itu 
-    </Text>
-    <Appear order="1">
-      <Text margin="0" textColor="primary" size={1} fit bold>
+    <Appear order="1">  
+      <Heading margin="0" textColor="primary" caps fit bold>
+        Apa itu 
+      </Heading>
+    </Appear>
+    <Appear order="2">
+      <Text margin="0" textColor="primary" fit bold>
         Progressive Web App?
       </Text>
     </Appear>

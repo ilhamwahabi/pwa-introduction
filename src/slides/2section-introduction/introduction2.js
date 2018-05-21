@@ -2,49 +2,26 @@ import React from 'react'
 
 import {
   Slide,
-  Text,
-  Layout,
-  Fill,
+  Heading,
   Appear
 } from 'spectacle';
 
 export default (
   <Slide transition={['fade']} bgColor="purple">
-    <Text margin="0" textColor="primary" size={3} fit bold>
-      Progressive Web App atau PWA
-    </Text>
-    <Appear order="1">    
-      <Text margin="20px 0 0 0" textColor="primary" size={6} fit bold>
+    <Appear order="1">        
+      <Heading lineHeight={2} textColor="primary" size={1} fit bold>
+        Progressive Web App atau PWA
+      </Heading>
+    </Appear>
+    <Appear order="2">    
+      <Heading lineHeight={2} textColor="primary" size={1} fit bold>
         aplikasi web yang menggunakan teknologi modern
-      </Text>
+      </Heading>
     </Appear>
-    <Appear order="1">    
-      <Text margin="20px 0 50px 0" textColor="primary" size={6} fit bold>
+    <Appear order="3">    
+      <Heading lineHeight={2} textColor="primary" size={1} fit bold>
         membuat user experience layaknya Native App
-      </Text>
+      </Heading>
     </Appear>
-      <Layout>
-        <Appear order="2">
-          <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Handal                
-            </Text>
-          </Fill>
-        </Appear>
-        <Appear order="3">        
-          <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Cepat                
-            </Text>
-          </Fill>
-        </Appear>
-        <Appear order="4">        
-          <Fill>
-            <Text margin="0" textSize="5rem" textColor="primary" bold>
-              Menawan                
-            </Text>
-          </Fill>
-        </Appear>
-      </Layout>
   </Slide>
 )

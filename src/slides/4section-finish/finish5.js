@@ -3,7 +3,6 @@ import React from 'react'
 import {
   Slide,
   Text,
-  Image,
   Layout,
   Fill,
   Appear
@@ -11,11 +10,13 @@ import {
 
 export default (
   <Slide transition={['fade']} bgColor="white">
-    <Text margin="0 0 50px 0" textColor="black" size={1} fit bold>
-      Referensi Belajar PWA
-    </Text>
+    <Appear order="1">  
+      <Text margin="0 0 50px 0" textColor="black" size={1} fit bold>
+        Referensi Belajar PWA
+      </Text>
+    </Appear>
     <Layout>
-      <Appear order="1">      
+      <Appear order="2">      
         <Fill>
           <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
             Google Developers Website
@@ -23,10 +24,27 @@ export default (
         </Fill>
       </Appear>
 
-      <Appear order="2">              
+      <Appear order="3">              
         <Fill>  
           <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
             Google Developers Channel
+          </Text>
+        </Fill> 
+      </Appear>
+    </Layout>
+    <Layout>
+      <Appear order="4">      
+        <Fill>
+          <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
+            Udemy
+          </Text>
+        </Fill>
+      </Appear>
+
+      <Appear order="5">              
+        <Fill>  
+          <Text margin="0 0 50px 0" textColor="black" textSize="2rem" bold>
+            Udacity
           </Text>
         </Fill> 
       </Appear>

@@ -3,46 +3,40 @@ import React from 'react'
 import {
   Slide,
   Text,
-  Image,
   Layout,
   Fill,
-  Appear
+  Appear,
+  Heading
 } from 'spectacle';
 
 export default (
   <Slide transition={['fade']} bgColor="black">
-    <Text margin="0 0 50px 0" textColor="white" size={1} fit bold>
-      Tentu saja, seperti...
-    </Text>
+    <Appear order="1">          
+      <Heading textColor="white" fit bold lineHeight={2}>
+        Tentu saja, seperti...
+      </Heading>
+    </Appear>
     <Layout>
-      <Appear order="1">      
+      <Appear order="2">      
         <Fill>
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
+          <Text textColor="white" bold>
             Twitter
           </Text>
         </Fill>
       </Appear>
 
-      <Appear order="2">              
+      <Appear order="3">              
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
+          <Text textColor="white" bold>
               Flipkart
             </Text>
         </Fill> 
       </Appear>
 
-      <Appear order="3">      
-        <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
-              Forbes
-            </Text>
-        </Fill> 
-      </Appear>
-        
       <Appear order="4">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
-              Alibaba
+          <Text textColor="white" bold>
+              Forbes
             </Text>
         </Fill> 
       </Appear>
@@ -50,34 +44,26 @@ export default (
     </Layout>
 
     <Layout>
-
+        
       <Appear order="5">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
-            Trivago
-          </Text>
+          <Text textColor="white" bold>
+              Alibaba
+            </Text>
         </Fill> 
       </Appear>
 
       <Appear order="6">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
-              Google
+          <Text textColor="white" bold>
+            Trivago
           </Text>
         </Fill> 
       </Appear>
 
       <Appear order="7">      
         <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
-            Telegram
-          </Text>
-        </Fill> 
-      </Appear>
-
-      <Appear order="8">      
-        <Fill>  
-          <Text margin="0 0 50px 0" textColor="white" textSize="3rem" bold>
+          <Text textColor="white" bold>
             Babe
           </Text>
         </Fill> 
@@ -85,41 +71,34 @@ export default (
 
     </Layout>
 
-    
     <Layout>
 
-      <Appear order="9">      
+      <Appear order="8">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="3rem" bold>
+          <Text margin="0" textColor="white" bold>
             Bukalapak
           </Text>
         </Fill> 
       </Appear>
 
-      <Appear order="10">      
+      <Appear order="9">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="3rem" bold>
-            Tokopedia
-          </Text>
-        </Fill> 
-      </Appear>
-
-      <Appear order="11">      
-        <Fill>  
-          <Text margin="0" textColor="white" textSize="3rem" bold>
+          <Text margin="0" textColor="white" bold>
             Traveloka
           </Text>
         </Fill> 
       </Appear>
 
-      <Appear order="12">      
+      
+      <Appear order="10">      
         <Fill>  
-          <Text margin="0" textColor="white" textSize="3rem" bold>
-            Jalan Tikus
+          <Text margin="0" textColor="white" bold>
+            Google
           </Text>
         </Fill> 
       </Appear>
 
     </Layout>
+
   </Slide>
 )
