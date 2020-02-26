@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{244:function(a,e,n){"use strict";n.r(e);var r=n(1),t=n.n(r),i=n(274),o=n(232),l=n(233),s=n(234);e.default=t.a.createElement(i.a,{bgColor:"secondary"},t.a.createElement(o.a,{order:"1"},t.a.createElement(l.a,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"Handal")),t.a.createElement(o.a,{order:"2"},t.a.createElement(s.a,{margin:"0",textColor:"primary",size:3,fit:!0,bold:!0},"Memungkinkan web/aplikasi diakses bahkan tanpa adanya jaringan")))}}]);
+//# sourceMappingURL=4.701a02a3.chunk.js.map

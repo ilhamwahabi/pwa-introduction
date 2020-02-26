@@ -1,2 +1,0 @@
-webpackJsonp([25],{983:function(e,a,r){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t=r(0),n=r.n(t),i=r(428);r.n(i);a.default=n.a.createElement(i.Slide,{bgColor:"secondary"},n.a.createElement(i.Appear,{order:"1"},n.a.createElement(i.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"primary"},"Handal")),n.a.createElement(i.Appear,{order:"2"},n.a.createElement(i.Text,{margin:"0",textColor:"primary",size:3,fit:!0,bold:!0},"Memungkinkan web/aplikasi diakses bahkan tanpa adanya jaringan")))}});
-//# sourceMappingURL=25.b946074a.chunk.js.map

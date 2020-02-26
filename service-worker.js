@@ -1,1 +1,34 @@
-"use strict";var precacheConfig=[["/pwa-introduction/index.html","7d6f54e022ef768bd4ccac18ce6c4fce"],["/pwa-introduction/static/css/main.653da357.css","521def3ae35e5b12d25e0300c45174f2"],["/pwa-introduction/static/js/0.b2b9570c.chunk.js","67495939712e4e204b78f8bba805a561"],["/pwa-introduction/static/js/1.529cfcfe.chunk.js","1f110af9a295237f54571ac7c4adc649"],["/pwa-introduction/static/js/10.adb17c82.chunk.js","a28e5020cd941e3a10ffe5a23b6e7480"],["/pwa-introduction/static/js/11.4f3affb2.chunk.js","2dcbf8d2f6ef0f66eecbcd4a6d61e9a4"],["/pwa-introduction/static/js/12.0ff12c1e.chunk.js","3c08fa906d887ce0f1155563b6189b4b"],["/pwa-introduction/static/js/13.3ea99ef2.chunk.js","74698d6222e61f46378147288bdf236d"],["/pwa-introduction/static/js/14.a64df08f.chunk.js","a413bbcf49687fd7162816cc9c590dd0"],["/pwa-introduction/static/js/15.d25e6893.chunk.js","442c4522757ad4c39f50a04913faaa5e"],["/pwa-introduction/static/js/16.97c564c7.chunk.js","ee579122158e68501124c18c9ec4bafe"],["/pwa-introduction/static/js/17.7ae52a56.chunk.js","9582b0204289c38c1884943b565edaaa"],["/pwa-introduction/static/js/18.ba612e45.chunk.js","ef0952928f3e70afe6277172e035962a"],["/pwa-introduction/static/js/19.a795e520.chunk.js","bea440aed90b8b1716f11abc47828337"],["/pwa-introduction/static/js/2.6bbf8305.chunk.js","d38f1d527d0847fca409226337c8ebb0"],["/pwa-introduction/static/js/20.46514d5a.chunk.js","83d4a2758880286188a79fe362446eaf"],["/pwa-introduction/static/js/21.78cfcd23.chunk.js","dc632c95547dbb394e05e2e36fced8be"],["/pwa-introduction/static/js/22.a3b3e6bb.chunk.js","4bf26a72177a71de875f91eec1725b2c"],["/pwa-introduction/static/js/23.f425b9d3.chunk.js","7045ac9a75a0de07defd432e3b5245ec"],["/pwa-introduction/static/js/24.e18c9152.chunk.js","ec03e3137dcf587846720ec05b14c0e0"],["/pwa-introduction/static/js/25.b946074a.chunk.js","febacf4ad194ab8a446ab6df1591b338"],["/pwa-introduction/static/js/26.63e1ffd0.chunk.js","10512899761d643055d3df377be67798"],["/pwa-introduction/static/js/27.45dbaef8.chunk.js","39e143a83bc1078f83f1a27ec1fc7694"],["/pwa-introduction/static/js/28.0d1b7060.chunk.js","7b8207a919adccbeba9ca297b467d2db"],["/pwa-introduction/static/js/3.a44d82e1.chunk.js","b638521480cab5abf35a5e87456fdc2e"],["/pwa-introduction/static/js/4.bb324202.chunk.js","2e6b643ed6c3aaf31372234d00701f1f"],["/pwa-introduction/static/js/5.f941c65d.chunk.js","653fa55730da35ae0197ead970df0596"],["/pwa-introduction/static/js/6.6effc66a.chunk.js","a03cbf5891f6cf9b0b68e24e9fb15a0e"],["/pwa-introduction/static/js/7.fb171ea0.chunk.js","957d214015c81bb1d15a0d31191d30dd"],["/pwa-introduction/static/js/8.1d283a28.chunk.js","be7db00e662ebdee1d80ce7cd47b83eb"],["/pwa-introduction/static/js/9.c1ae6535.chunk.js","ac65f5d107d1342f048409e052a09330"],["/pwa-introduction/static/js/main.9f6b32ee.js","9143671dd24ea6c3ddb4b91d9e0a1f24"]],cacheName="sw-precache-v3-sw-precache-webpack-plugin-"+(self.registration?self.registration.scope:""),ignoreUrlParametersMatching=[/^utm_/],addDirectoryIndex=function(e,t){var n=new URL(e);return"/"===n.pathname.slice(-1)&&(n.pathname+=t),n.toString()},cleanResponse=function(t){return t.redirected?("body"in t?Promise.resolve(t.body):t.blob()).then(function(e){return new Response(e,{headers:t.headers,status:t.status,statusText:t.statusText})}):Promise.resolve(t)},createCacheKey=function(e,t,n,a){var c=new URL(e);return a&&c.pathname.match(a)||(c.search+=(c.search?"&":"")+encodeURIComponent(t)+"="+encodeURIComponent(n)),c.toString()},isPathWhitelisted=function(e,t){if(0===e.length)return!0;var n=new URL(t).pathname;return e.some(function(e){return n.match(e)})},stripIgnoredUrlParameters=function(e,n){var t=new URL(e);return t.hash="",t.search=t.search.slice(1).split("&").map(function(e){return e.split("=")}).filter(function(t){return n.every(function(e){return!e.test(t[0])})}).map(function(e){return e.join("=")}).join("&"),t.toString()},hashParamName="_sw-precache",urlsToCacheKeys=new Map(precacheConfig.map(function(e){var t=e[0],n=e[1],a=new URL(t,self.location),c=createCacheKey(a,hashParamName,n,/\.\w{8}\./);return[a.toString(),c]}));function setOfCachedUrls(e){return e.keys().then(function(e){return e.map(function(e){return e.url})}).then(function(e){return new Set(e)})}self.addEventListener("install",function(e){e.waitUntil(caches.open(cacheName).then(function(a){return setOfCachedUrls(a).then(function(n){return Promise.all(Array.from(urlsToCacheKeys.values()).map(function(t){if(!n.has(t)){var e=new Request(t,{credentials:"same-origin"});return fetch(e).then(function(e){if(!e.ok)throw new Error("Request for "+t+" returned a response with status "+e.status);return cleanResponse(e).then(function(e){return a.put(t,e)})})}}))})}).then(function(){return self.skipWaiting()}))}),self.addEventListener("activate",function(e){var n=new Set(urlsToCacheKeys.values());e.waitUntil(caches.open(cacheName).then(function(t){return t.keys().then(function(e){return Promise.all(e.map(function(e){if(!n.has(e.url))return t.delete(e)}))})}).then(function(){return self.clients.claim()}))}),self.addEventListener("fetch",function(t){if("GET"===t.request.method){var e,n=stripIgnoredUrlParameters(t.request.url,ignoreUrlParametersMatching),a="index.html";(e=urlsToCacheKeys.has(n))||(n=addDirectoryIndex(n,a),e=urlsToCacheKeys.has(n));var c="/pwa-introduction/index.html";!e&&"navigate"===t.request.mode&&isPathWhitelisted(["^(?!\\/__).*"],t.request.url)&&(n=new URL(c,self.location).toString(),e=urlsToCacheKeys.has(n)),e&&t.respondWith(caches.open(cacheName).then(function(e){return e.match(urlsToCacheKeys.get(n)).then(function(e){if(e)return e;throw Error("The cached response that was expected is missing.")})}).catch(function(e){return console.warn('Couldn\'t serve response for "%s" from cache: %O',t.request.url,e),fetch(t.request)}))}});
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+
+importScripts(
+  "/pwa-introduction/precache-manifest.2280ed7ad1b553179dcf627e66f5acb5.js"
+);
+
+workbox.clientsClaim();
+
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerNavigationRoute("/pwa-introduction/index.html", {
+  
+  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+});
