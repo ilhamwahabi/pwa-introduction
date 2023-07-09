@@ -8,5 +8,3 @@ Web-based presentation about Progressive Web App, new web technology that bring 
 2. Clone this repository
 3. In this directory, run `npm install`
 4. Go for `npm start` and it's live!
-
-Open directly here https://pwa-introduction.iwgx.io
